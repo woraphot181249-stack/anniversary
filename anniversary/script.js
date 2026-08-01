@@ -78,7 +78,7 @@ function goToStage(stageName, options = {}) {
 function updateFloatingNavButton(screen) {
   if (screen === messageScreen) {
     floatingNavBtn.classList.remove('hidden');
-    floatingNavBtn.textContent = 'ย้อนกลับไปดูรูปภาพ';
+    floatingNavBtn.textContent = '🩵🩵🩵';
   } else if (screen === galleryScreen) {
     floatingNavBtn.classList.remove('hidden');
     floatingNavBtn.textContent = 'ย้อนกลับไปดูข้อความ';
