@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>วันครบรอบ 1 ปี 5 เดือน 💗</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="min-h-screen overflow-hidden bg-gradient-to-br from-pink-100 via-rose-50 to-amber-50 text-pink-900">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <span class="background-orb orb-1"></span>
+      <span class="background-orb orb-2"></span>
+      <span class="background-orb orb-3"></span>
+      <span class="sparkle sparkle-1">✦</span>
+      <span class="sparkle sparkle-2">✦</span>
+      <span class="sparkle sparkle-3">✦</span>
+      <span class="floating-heart heart-1">❤</span>
+      <span class="floating-heart heart-2">❤</span>
+      <span class="floating-heart heart-3">❤</span>
+      <span class="floating-heart heart-4">❤</span>
+      <span class="floating-heart heart-5">❤</span>
+      <span class="floating-heart heart-6">❤</span>
+      <span class="floating-heart heart-7">❤</span>
+      <span class="floating-heart heart-8">❤</span>
+    </div>
+
+    <main class="relative z-10 flex min-h-screen items-center justify-center px-4 py-8">
+      <button id="floating-nav-btn" class="floating-nav-btn hidden">ย้อนกลับไปดูรูปภาพ</button>
+
+      <section id="lock-screen" class="stage active">
+        <div class="glass-card w-full max-w-md rounded-[2rem] p-6 md:p-8 text-center shadow-[0_20px_80px_rgba(244,114,182,0.25)]">
+          <div class="mb-5 text-5xl">💌</div>
+          <h1 class="font-title text-3xl md:text-4xl text-pink-700">ปิดล็อกเพื่อเข้าสู่ความลับ</h1>
+          <p class="mt-3 text-sm md:text-base text-pink-700/80">วันนี้เป็นวันอะไร</p>
+
+          <div class="mt-6">
+            <input
+              id="answer-input"
+              type="text"
+              class="w-full rounded-2xl border border-pink-200 bg-white/80 px-4 py-3 text-center text-base outline-none ring-0 transition focus:border-pink-400 focus:bg-white"
+              placeholder="พิมพ์คำตอบของเธอ..."
+              autocomplete="off"
+            />
+            <button
+              id="unlock-btn"
+              class="mt-4 w-full rounded-2xl bg-gradient-to-r from-pink-500 to-rose-400 px-4 py-3 font-semibold text-white shadow-lg shadow-pink-300/50 transition hover:scale-[1.01]"
+            >
+              ยืนยัน
+            </button>
+            <p id="warning-text" class="mt-3 hidden text-sm text-rose-500">เอ๊ะ... ลองคิดดูใหม่อ น้าคนเก่ง ❤️</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="heart-card-screen" class="stage hidden">
+        <div class="flex flex-col items-center gap-6">
+          <div class="text-center">
+            <h2 class="font-title text-3xl text-pink-700">กด หรือ ปัดขึ้นเพื่อเปิดการ์ด</h2>
+            <p class="mt-2 text-pink-700/75">มีของขวัญเล็กๆ สำหรับเธออยู่ตรงนี้ 💖</p>
+          </div>
+
+          <div id="heart-card" class="card-shell" role="button" tabindex="0" aria-label="เปิดการ์ดหัวใจ">
+            <div class="card-inner">
+              <div class="heart-card-face card-front">
+                <div class="heart-card-content">
+                  <span class="heart-glyph">❤</span>
+                  <p class="heart-note">คลิก/ปัดขึ้นเพื่อเปิด</p>
+                </div>
+              </div>
+              <div class="heart-card-face card-back">
+                <div class="heart-card-content-back">
+                  <p class="text-[18px] font-semibold text-pink-700">For My Bebii</p>
+                  <p class="mt-2 text-sm text-pink-700/75">รักเธอแบบไม่มีวันหมด</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="message-screen" class="stage hidden">
+        <div class="glass-card w-full max-w-3xl rounded-[2rem] p-6 md:p-8 shadow-[0_20px_80px_rgba(244,114,182,0.25)]">
+          <div class="mb-4 text-4xl text-center">💞</div>
+          <div id="message-box" class="message-text text-[18px] md:text-[20px] leading-10 text-pink-800">
+            สุขสันต์วันครบรอบ 1 ปี 5 เดือนนะเบบี๋<br />
+            ขอบคุณนะที่คอยอยู่ข้างๆ และสร้างรอยยิ้มให้เค้าทุกวันเลย ขอบคุณที่ทนนิสัยเค้าได้ไม่เคยคบกับใครได้นานเท่านี้เลย เวลาอยู่กับเธอเค้าโครตมีความสุขและอบอุ่นหัวใจทุกครั้งเลย ดีใจมากๆ ที่มีเบบี๋อยู่ในชีวิตนะ<br />
+            เค้าสัญญาว่าจะดูแลความรักของเราให้ดีที่สุดแบบนี้เรื่อยๆ เลย อยู่สร้างความทรงจำดีๆ ด้วยกันไปนานๆ น้า รักเบบี๋ที่สุดเลยนะ! ❤️ จาก มู่
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery-screen" class="stage hidden">
+        <div class="gallery-shell w-full max-w-7xl px-2 md:px-4">
+          <div class="mb-6 text-center">
+            <h2 class="font-title text-3xl md:text-4xl text-pink-700">ความทรงจำที่เราสร้างด้วยกัน</h2>
+            <p class="mt-2 text-pink-700/70">กดย้อนกลับเพื่อกลับไปอ่านข้อความอีกครั้งได้เสมอ 💗</p>
+          </div>
+
+          <div class="gallery-grid grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 1" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 2" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 3" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 4" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 5" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 6" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1511909525237-b4a1a8d9782d?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 7" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 8" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 9" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 10" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 11" />
+              </div>
+            </div>
+            <div class="gallery-card reveal-card">
+              <div class="gallery-frame">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="ความทรงจำรูปที่ 12" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
